@@ -13,10 +13,15 @@
 - Published Several research papers in reputable journals and conferences within the fields of AI and cybersecurity feilds.
 - Introduce several workshops and seminars on emerging topics in AI and cybersecurity.
 
-**Head of Development and Programming @ University of Petra, Computer Center (_November 2019 - November2020_)**
+**Head of Development and Programming @ University of Petra, Computer Center (_December2019 - November2020_)**
 - Led a team of software developers and engineers in designing, developing, and maintaining cutting-edge software solutions.
 - Managed the full software development lifecycle, including requirements gathering, planning, coding, testing, and deployment.
 - Conducted code reviews, provided mentorship, and facilitated professional development for team members.
+
+**Senior Software Engineer @ University of Petra, Computer Center (_November 2015 - December2019_)**
+- Designed, developed, and maintained high-performance software applications for various units and faculties.
+- Identified and resolved complex technical issues, ensuring system reliability and minimizing downtime.
+- Stayed updated with the latest industry trends and technologies to continuously improve development processes and product offerings.
 
 
 ## Projects
