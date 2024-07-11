@@ -21,7 +21,7 @@
 ## Projects
 
 ### University of Petra (UOP) Systems
-[UOP]([[http](https://www.uop.edu.jo/Ar/Pages/default.aspx#)])
+[UOP]([https://www.uop.edu.jo/Ar/Pages/default.aspx#])
 As a Developer at the University of Petra, I worked on several key systems, including the instructor profile system, placement test system, transportation system, embassy system, and various other systems. I was involved in all phases of the software development lifecycle, from requirements gathering and system design to development, testing, and deployment. My responsibilities included developing user-friendly interfaces, optimizing system performance, and ensuring robust security measures. I collaborated closely with cross-functional teams to deliver tailored solutions that met the specific needs of the university. My contributions significantly enhanced the efficiency and effectiveness of university operations, providing reliable and scalable software solutions.
 
 ### Acorna ERP System
