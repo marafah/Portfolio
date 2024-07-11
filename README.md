@@ -23,6 +23,19 @@
 - Identified and resolved complex technical issues, ensuring system reliability and minimizing downtime.
 - Stayed updated with the latest industry trends and technologies to continuously improve development processes and product offerings.
 
+**Computer Teacher @ Ministry of Education (_August 2014 - August2015_)**
+- Developed and implemented lesson plans, assignments, and assessments to monitor student progress and understanding.
+- Collaborated with colleagues to integrate technology into other subject areas and promote digital literacy.
+- Stayed updated with the latest educational technologies and trends to continuously improve teaching methods.
+
+**Junior Software Developer @ Acorna Company (_September 2012 - September2013_)**
+- Assisted in the development and maintenance of web applications using JavaScript, HTML, CSS, and Js.
+- Collaborated with senior developers to design and implement new features and functionalities.
+- Participated in code reviews and debugging sessions to ensure code quality and resolve issues.
+- Wrote and maintained technical documentation for software applications.
+- Contributed to the development of RESTful APIs and integrated them with front-end applications.
+- Conducted unit testing and supported QA processes to ensure software reliability.
+
 
 ## Projects
 ### [University of Petra Systems](https://www.uop.edu.jo/Ar/Pages/default.aspx#)
