@@ -61,5 +61,5 @@ As a Developer on the Acorna ERP System project, I played a key role in developi
 - Cybersecurity Fundamentals.
 
 ## Talks and Lectures
-- [Programming YouTube](https://www.youtube.com/@kudvenkatarabic/playlists)
+- [YouTube Channel: Programming](https://www.youtube.com/@kudvenkatarabic/playlists)
 - [Coseners](https://coseners.net/)Generative Modeling in the cybersecurity field.
