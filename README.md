@@ -1,6 +1,7 @@
-# Data Scientist
+# AI-Driven Cybersecurity | Generative Modelling
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: Programming Language (Python, C#), Data Analysis (NumPy, Pandas, Excel, SQL, Ms Power BI), 
+Artificial Intelligence (Machine Learning, Neural Networks, Deep Learning), Cybersecurity (Intrusion Detection Systems (IDS), Network Security)
 
 ## Education
 - Ph.D., Cybersecurity/AI | Loughborough University (11, 2023) | 
