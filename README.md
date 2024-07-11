@@ -26,12 +26,12 @@ As a Developer at the University of Petra, I worked on several key systems, incl
 ### [Acorna ERP System](https://acornasolutions.com/)
 As a Developer on the Acorna ERP System project, I played a key role in developing and implementing a comprehensive enterprise resource planning solution. I contributed to integrating essential business functions such as finance, human resources, inventory management, sales, procurement, and CRM into a single, unified system. I developed and optimized algorithms for real-time data analytics, significantly enhancing decision-making capabilities. Additionally, I designed a user-friendly interface to facilitate seamless adoption across various departments and ensured the system's scalability and customization to meet diverse industry requirements. I implemented robust security measures to protect sensitive business data and collaborated closely with cross-functional teams to gather requirements and deliver tailored solutions. I conducted thorough testing and provided support during deployment, achieving significant improvements in operational efficiency and productivity for client businesses.
 
-[Publication](https://scholar.google.com/citations?hl=en&user=uXk3oxMAAAAJ&view_op=list_works&sortby=pubdate)
-- Empowering Learning Analytics with Business Intelligence [Link](https://ieeexplore.ieee.org/abstract/document/10533111/).
-- The Impact of Stuttering Event Representation on Detection Performance [Link](https://ieeexplore.ieee.org/abstract/document/10532935).
-- Improving intrusion detection system performance using generative adversarial networks architecture [Link](https://repository.lboro.ac.uk/articles/thesis/Improving_intrusion_detection_system_performance_using_generative_adversarial_networks_architecture/24584445)
-- Evaluating the impact of generative adversarial models on the performance of anomaly intrusion detection [Link](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ntw2.12098).
-- Efficient image recognition technique using invariant moments and principle component analysis [Link](https://www.scirp.org/journal/paperinformation?paperid=72570).
+##[Publication](https://scholar.google.com/citations?hl=en&user=uXk3oxMAAAAJ&view_op=list_works&sortby=pubdate)
+- [Empowering Learning Analytics with Business Intelligence](https://ieeexplore.ieee.org/abstract/document/10533111/).
+- [The Impact of Stuttering Event Representation on Detection Performance](https://ieeexplore.ieee.org/abstract/document/10532935).
+- [Improving intrusion detection system performance using generative adversarial networks architecture](https://repository.lboro.ac.uk/articles/thesis/Improving_intrusion_detection_system_performance_using_generative_adversarial_networks_architecture/24584445)
+- [Evaluating the impact of generative adversarial models on the performance of anomaly intrusion detection](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ntw2.12098).
+- [Efficient image recognition technique using invariant moments and principle component analysis](https://www.scirp.org/journal/paperinformation?paperid=72570).
 
 ## Talks & Lectures
 - Causality: The new science of an old question - GSP Seminar, Fall 2021
