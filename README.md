@@ -3,9 +3,9 @@
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
 ## Education
-- Ph.D., Cybersecurity and AI | Loughborough University (November 2023) |
-- M.S., Information Systems | The University of Jordan (August 2015) |
-- B.S., Software Engineering | Zarqa University (June 2012) |
+- Ph.D., Cybersecurity and AI || Loughborough University (November 2023) | 
+- M.S., Information Systems || The University of Jordan (August 2015) | 
+- B.S., Software Engineering || Zarqa University (June 2012) | 
 
 ## Work Experience
 **Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
