@@ -1,7 +1,6 @@
 # AI-Driven Cybersecurity | Generative Modelling
 
-#### Technical Skills: Programming Language (Python, C#), Data Analysis (NumPy, Pandas, Excel, SQL, Ms Power BI), 
-Artificial Intelligence (Machine Learning, Neural Networks, Deep Learning), Cybersecurity (Intrusion Detection Systems (IDS), Network Security)
+#### Technical Skills: Python, C#, Excel, SQL, Ms Power BI, ML, DL, Intrusion Detection Systems.
 
 ## Education
 - Ph.D., Cybersecurity/AI | Loughborough University (11, 2023) | 
