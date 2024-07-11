@@ -19,10 +19,9 @@
 - Conducted code reviews, provided mentorship, and facilitated professional development for team members.
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
-
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+### Acorna ERP System
+[Publication]([https://www.mdpi.com/1424-8220/22/8/3048](https://acornasolutions.com/))
+As a Developer on the Acorna ERP System project, I played a key role in developing and implementing a comprehensive enterprise resource planning solution. I contributed to integrating essential business functions such as finance, human resources, inventory management, sales, procurement, and CRM into a single, unified system. I developed and optimized algorithms for real-time data analytics, significantly enhancing decision-making capabilities. Additionally, I designed a user-friendly interface to facilitate seamless adoption across various departments and ensured the system's scalability and customization to meet diverse industry requirements. I implemented robust security measures to protect sensitive business data and collaborated closely with cross-functional teams to gather requirements and deliver tailored solutions. I conducted thorough testing and provided support during deployment, achieving significant improvements in operational efficiency and productivity for client businesses.
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
