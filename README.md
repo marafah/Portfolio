@@ -13,9 +13,10 @@
 - Published Several research papers in reputable journals and conferences within the fields of AI and cybersecurity feilds.
 - Introduce several workshops and seminars on emerging topics in AI and cybersecurity.
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+**Head of Development and Programming @ University of Petra, Computer Center (_November 2019 - November2020_)**
+- Led a team of software developers and engineers in designing, developing, and maintaining cutting-edge software solutions.
+- Managed the full software development lifecycle, including requirements gathering, planning, coding, testing, and deployment.
+- Conducted code reviews, provided mentorship, and facilitated professional development for team members.
 
 ## Projects
 ### Data-Driven EEG Band Discovery with Decision Trees
