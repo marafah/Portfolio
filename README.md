@@ -11,6 +11,7 @@
 **Assistant Professor @ University of Petra (_January 2023 - Present_)**
 - Developed and taught undergraduate courses in Information Security Department.
 - Published Several research papers in reputable journals and conferences within the fields of AI and cybersecurity feilds.
+- Introduce several workshops and seminars on emerging topics in AI and cybersecurity.
 
 **Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
 - Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
