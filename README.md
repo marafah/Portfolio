@@ -62,5 +62,5 @@ As a Developer on the Acorna ERP System project, I played a key role in developi
 
 ## Talks and Lectures
 - [YouTube Channel: Programming](https://www.youtube.com/@kudvenkatarabic/playlists)
-- [Coseners](https://coseners.net/)Generative Modeling in the cybersecurity field.
+- [Coseners: ](https://coseners.net/)Generative Modeling in the cybersecurity field.
 - [Udemey Profile](https://www.udemy.com/user/mohammad-emad-mustafa-arafah/)
