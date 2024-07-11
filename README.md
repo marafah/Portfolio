@@ -1,6 +1,6 @@
 # AI-Driven Cybersecurity
 
-#### Technical Skills: Python, C#, Excel, SQL, Ms Power BI, ML, DL, Intrusion Detection Systems.
+#### Technical Skills: Python, C#, Excel, SQL, Ms Power BI, ML, DL, IDS.
 
 ## Education
 - Ph.D., Cybersecurity/AI | Loughborough University (11, 2023) | 
