@@ -1,4 +1,4 @@
-# AI-Driven Cybersecurity | Generative Modelling
+# AI-Driven Cybersecurity
 
 #### Technical Skills: Python, C#, Excel, SQL, Ms Power BI, ML, DL, Intrusion Detection Systems.
 
