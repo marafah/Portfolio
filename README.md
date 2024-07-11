@@ -28,14 +28,13 @@ As a Developer at the University of Petra, I worked on several key systems, incl
 [Acorna]([https://www.mdpi.com/1424-8220/22/8/3048](https://acornasolutions.com/))
 As a Developer on the Acorna ERP System project, I played a key role in developing and implementing a comprehensive enterprise resource planning solution. I contributed to integrating essential business functions such as finance, human resources, inventory management, sales, procurement, and CRM into a single, unified system. I developed and optimized algorithms for real-time data analytics, significantly enhancing decision-making capabilities. Additionally, I designed a user-friendly interface to facilitate seamless adoption across various departments and ensured the system's scalability and customization to meet diverse industry requirements. I implemented robust security measures to protect sensitive business data and collaborated closely with cross-functional teams to gather requirements and deliver tailored solutions. I conducted thorough testing and provided support during deployment, achieving significant improvements in operational efficiency and productivity for client businesses.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+[Publication]([https://scholar.google.com/citations?hl=en&user=uXk3oxMAAAAJ&view_op=list_works&sortby=pubdate]))
+- Empowering Learning Analytics with Business Intelligence [Link]([https://ieeexplore.ieee.org/abstract/document/10533111/]).
+- The Impact of Stuttering Event Representation on Detection Performance [Link]([[https://ieeexplore.ieee.org/abstract/document/10533111/](https://ieeexplore.ieee.org/abstract/document/10532935)]).
+- Improving intrusion detection system performance using generative adversarial networks architecture [Link]([[[https://ieeexplore.ieee.org/abstract/document/10533111/](https://ieeexplore.ieee.org/abstract/document/10532935)](https://repository.lboro.ac.uk/articles/thesis/Improving_intrusion_detection_system_performance_using_generative_adversarial_networks_architecture/24584445)]).
+- Evaluating the impact of generative adversarial models on the performance of anomaly intrusion detection [Link]([[https://ieeexplore.ieee.org/abstract/document/10533111/](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ntw2.12098)]).
+- Efficient image recognition technique using invariant moments and principle component analysis [Link]([[https://ieeexplore.ieee.org/abstract/document/10533111/](https://www.scirp.org/journal/paperinformation?paperid=72570)]).
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
-
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
-
-![Bike Study](/assets/img/bike_study.jpeg)
 
 ## Talks & Lectures
 - Causality: The new science of an old question - GSP Seminar, Fall 2021
