@@ -51,16 +51,15 @@ As a Developer on the Acorna ERP System project, I played a key role in developi
 4. [Evaluating the impact of generative adversarial models on the performance of anomaly intrusion detection](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ntw2.12098).
 5. [Efficient image recognition technique using invariant moments and principle component analysis](https://www.scirp.org/journal/paperinformation?paperid=72570).
 
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
+## Teaching Courses
+- Linux Security Fundamentals.
+- Programming Language 1 (Java).
+- Programming Language 2 (Python).
+- Information & Network Security Programming (Python).
+- Programming for Engineers (Matlab).
+- Information Technology Fundamentals.
+- Cybersecurity Fundamentals.
 
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
-
-
-
-- [Data Science Blog](https://medium.com/@shawhin)
+## Talks and Lectures
+- [Programming YouTube](https://www.youtube.com/@kudvenkatarabic/playlists)
+- [Coseners](https://coseners.net/)Generative Modeling in the cybersecurity field.
