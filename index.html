@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Dr. Mohammad Arafah — Assistant Professor of Cybersecurity & AI, Co-Founder/Head of AI at Sygma. Research, publications, teaching and AI industry projects." />
+<meta name="author" content="Mohammad Arafah" />
+<meta name="keywords" content="Mohammad Arafah, Cybersecurity, Artificial Intelligence, AI, Machine Learning, Deep Learning, GAN, Intrusion Detection, University of Petra, Sygma, Loughborough" />
+<meta property="og:title" content="Dr. Mohammad Arafah — Cybersecurity & AI" />
+<meta property="og:description" content="Assistant Professor | AI Lead & Co-Founder | Researcher in Cybersecurity & Artificial Intelligence." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://marafah.github.io/Portfolio/" />
+<title>Dr. Mohammad Arafah — Cybersecurity & AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%232563eb'/%3E%3Ctext x='50' y='66' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold' font-size='52'%3EM%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+<!-- Scroll Progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo">
+      <span class="logo-mark"><img src="profile.png" alt="Mohammad Arafah" /></span>
+      <span class="logo-text" data-en="Dr. Mohammad Arafah" data-ar="د. محمد عرفة">Dr. Mohammad Arafah</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-en="About" data-ar="نبذة">About</a>
+      <a href="#experience" data-en="Experience" data-ar="الخبرات">Experience</a>
+      <a href="#publications" data-en="Publications" data-ar="الأبحاث">Publications</a>
+      <a href="#teaching" data-en="Teaching" data-ar="التدريس">Teaching</a>
+      <a href="#skills" data-en="Skills" data-ar="المهارات">Skills</a>
+      <a href="#projects" data-en="Projects" data-ar="المشاريع">Projects</a>
+      <a href="#contact" data-en="Contact" data-ar="التواصل">Contact</a>
+    </nav>
+
+    <div class="nav-controls">
+      <button class="ctrl-btn" id="langToggle" aria-label="Toggle language" title="العربية / English">
+        <i class="fa-solid fa-language"></i>
+        <span id="langLabel">AR</span>
+      </button>
+      <button class="ctrl-btn" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+        <i class="fa-solid fa-moon" id="themeIcon"></i>
+      </button>
+      <button class="ctrl-btn menu-btn" id="menuBtn" aria-label="Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="grid-pattern"></div>
+  </div>
+
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <div class="hero-tag" data-en="Available for research collaboration & consulting" data-ar="متاح للتعاون البحثي والاستشارات">
+        <span class="dot"></span>
+        <span>Available for research collaboration & consulting</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span data-en="Hi, I'm" data-ar="مرحبًا، أنا">Hi, I'm</span>
+        <span class="gradient-text" data-en="Mohammad Arafah" data-ar="محمد عرفة">Mohammad Arafah</span>
+      </h1>
+
+      <h2 class="hero-subtitle typewriter">
+        <span id="typeTarget"></span><span class="cursor">|</span>
+      </h2>
+
+      <p class="hero-bio" data-en="Ph.D. in Cybersecurity & Artificial Intelligence from Loughborough University (UK). Assistant Professor at the University of Petra and Co-Founder / Head of AI at Sygma Global Software Solutions. Bridging rigorous academic research with production-grade AI in cybersecurity, healthcare, retail and conversational systems." data-ar="دكتوراه في الأمن السيبراني والذكاء الاصطناعي من جامعة لوفبرا (المملكة المتحدة). أستاذ مساعد في جامعة البترا، وشريك مؤسّس ورئيس قسم الذكاء الاصطناعي في شركة Sygma، أعمل على الجسر بين البحث الأكاديمي الصارم وحلول الذكاء الاصطناعي الإنتاجية في الأمن السيبراني والرعاية الصحية والتجزئة والأنظمة الحوارية.">
+        Ph.D. in Cybersecurity & Artificial Intelligence from Loughborough University (UK). Assistant Professor at the University of Petra and Co-Founder / Head of AI at Sygma Global Software Solutions. Bridging rigorous academic research with production-grade AI in cybersecurity, healthcare, retail and conversational systems.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span data-en="Get in touch" data-ar="تواصل معي">Get in touch</span>
+        </a>
+        <a href="Arafahs_CV.pdf" class="btn btn-outline" target="_blank" rel="noopener">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span data-en="Download CV" data-ar="تحميل السيرة الذاتية">Download CV</span>
+        </a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://scholar.google.com/citations?user=uXk3oxMAAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/in/mohammadarafah/" target="_blank" rel="noopener" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://fit.uop.edu.jo/en/computerscience/pages/academicstaffinfo.aspx?uid=6d006f00680061006d006d00610064002e00610072006100660061006800400075006f0070002e006500640075002e006a006f00" target="_blank" rel="noopener" title="University of Petra"><i class="fa-solid fa-university"></i></a>
+        <a href="https://sygma.net/en/team/mohammad-arafeh/" target="_blank" rel="noopener" title="Sygma"><i class="fa-solid fa-building"></i></a>
+        <a href="mailto:mohammad_arafah@hotmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="avatar-wrap">
+        <div class="avatar-ring"></div>
+        <div class="avatar">
+          <svg class="avatar-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <radialGradient id="bgGrad" cx="50%" cy="40%" r="75%">
+                <stop offset="0%" stop-color="#6E33D6" stop-opacity="1"/>
+                <stop offset="55%" stop-color="#4000A5" stop-opacity="1"/>
+                <stop offset="100%" stop-color="#1A0550" stop-opacity="1"/>
+              </radialGradient>
+              <linearGradient id="nodeGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#00C2FF"/>
+                <stop offset="100%" stop-color="#2DD4BF"/>
+              </linearGradient>
+              <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+                <stop offset="100%" stop-color="#e0e7ff" stop-opacity="0.75"/>
+              </linearGradient>
+              <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="1.2"/>
+              </filter>
+              <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="4" result="b"/>
+                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+
+            <!-- Background -->
+            <circle cx="200" cy="200" r="200" fill="url(#bgGrad)"/>
+
+            <!-- Orbit rings -->
+            <g stroke="#ffffff" stroke-opacity="0.12" fill="none">
+              <circle cx="200" cy="200" r="150" stroke-dasharray="2 6"/>
+              <circle cx="200" cy="200" r="110" stroke-dasharray="3 5"/>
+              <circle cx="200" cy="200" r="70" stroke-dasharray="1 4"/>
+            </g>
+
+            <!-- Circuit pattern -->
+            <g stroke="#00C2FF" stroke-opacity="0.5" fill="none" stroke-width="1.2">
+              <path d="M40 100 H90 V140 H140"/>
+              <path d="M360 110 H310 V150"/>
+              <path d="M60 300 H110 V260"/>
+              <path d="M340 290 H290 V250 H260"/>
+              <circle cx="40" cy="100" r="3" fill="#00C2FF"/>
+              <circle cx="360" cy="110" r="3" fill="#2DD4BF"/>
+              <circle cx="60" cy="300" r="3" fill="#2DD4BF"/>
+              <circle cx="340" cy="290" r="3" fill="#00C2FF"/>
+            </g>
+
+            <!-- Neural network edges -->
+            <g stroke="url(#nodeGrad)" stroke-opacity="0.55" stroke-width="1.5">
+              <line x1="130" y1="120" x2="200" y2="170"/>
+              <line x1="270" y1="120" x2="200" y2="170"/>
+              <line x1="130" y1="120" x2="200" y2="230"/>
+              <line x1="270" y1="120" x2="200" y2="230"/>
+              <line x1="130" y1="280" x2="200" y2="230"/>
+              <line x1="270" y1="280" x2="200" y2="230"/>
+              <line x1="130" y1="280" x2="200" y2="170"/>
+              <line x1="270" y1="280" x2="200" y2="170"/>
+              <line x1="200" y1="170" x2="200" y2="230"/>
+            </g>
+
+            <!-- Neural nodes -->
+            <g filter="url(#glow)">
+              <circle cx="130" cy="120" r="8" fill="url(#nodeGrad)">
+                <animate attributeName="r" values="8;10;8" dur="3s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="270" cy="120" r="8" fill="url(#nodeGrad)">
+                <animate attributeName="r" values="8;10;8" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="130" cy="280" r="8" fill="url(#nodeGrad)">
+                <animate attributeName="r" values="8;10;8" dur="3s" begin="1s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="270" cy="280" r="8" fill="url(#nodeGrad)">
+                <animate attributeName="r" values="8;10;8" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+              </circle>
+            </g>
+
+            <!-- Central shield (cybersecurity) -->
+            <g transform="translate(200 200)">
+              <path d="M0 -70 L55 -50 L55 10 C55 45 30 72 0 80 C-30 72 -55 45 -55 10 L-55 -50 Z"
+                    fill="url(#shieldGrad)" opacity="0.95"/>
+              <path d="M0 -70 L55 -50 L55 10 C55 45 30 72 0 80 C-30 72 -55 45 -55 10 L-55 -50 Z"
+                    fill="none" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.5"/>
+
+              <!-- Checkmark / neural core inside shield -->
+              <g>
+                <!-- Brain/Circuit icon inside -->
+                <circle cx="0" cy="-5" r="22" fill="none" stroke="#4000A5" stroke-width="2.5"/>
+                <circle cx="-12" cy="-10" r="3.5" fill="#00C2FF"/>
+                <circle cx="12" cy="-10" r="3.5" fill="#2DD4BF"/>
+                <circle cx="0" cy="5" r="3.5" fill="#4000A5"/>
+                <line x1="-12" y1="-10" x2="0" y2="5" stroke="#4000A5" stroke-width="1.5"/>
+                <line x1="12" y1="-10" x2="0" y2="5" stroke="#4000A5" stroke-width="1.5"/>
+                <line x1="-12" y1="-10" x2="12" y2="-10" stroke="#00C2FF" stroke-width="1.2"/>
+                <!-- Lock keyhole -->
+                <circle cx="0" cy="38" r="5" fill="#4000A5"/>
+                <rect x="-2" y="38" width="4" height="10" fill="#4000A5"/>
+              </g>
+            </g>
+
+            <!-- Floating binary / data bits -->
+            <g fill="#ffffff" opacity="0.45" font-family="monospace" font-size="11" font-weight="700">
+              <text x="70" y="170">01</text>
+              <text x="310" y="200">10</text>
+              <text x="80" y="230">11</text>
+              <text x="300" y="250">00</text>
+              <text x="190" y="60">AI</text>
+              <text x="188" y="360">ML</text>
+            </g>
+
+            <!-- Scanning ring (animated) -->
+            <circle cx="200" cy="200" r="180" fill="none" stroke="#2DD4BF" stroke-opacity="0.9" stroke-width="2" stroke-dasharray="30 1100" stroke-linecap="round">
+              <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="8s" repeatCount="indefinite"/>
+            </circle>
+          </svg>
+        </div>
+        <div class="float-chip chip-1"><i class="fa-solid fa-shield-halved"></i><span data-en="Cybersecurity" data-ar="الأمن السيبراني">Cybersecurity</span></div>
+        <div class="float-chip chip-2"><i class="fa-solid fa-brain"></i><span data-en="AI / ML" data-ar="الذكاء الاصطناعي">AI / ML</span></div>
+        <div class="float-chip chip-3"><i class="fa-solid fa-graduation-cap"></i><span data-en="Ph.D." data-ar="دكتوراه">Ph.D.</span></div>
+        <div class="float-chip chip-4"><i class="fa-solid fa-flask"></i><span data-en="Research" data-ar="الأبحاث">Research</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats strip -->
+  <div class="container">
+    <div class="stats">
+      <div class="stat"><div class="stat-num" data-count="22" data-suffix="+">22+</div><div class="stat-label" data-en="Publications" data-ar="المنشورات العلمية">Publications</div></div>
+      <div class="stat"><div class="stat-num" data-count="13" data-suffix="+">13+</div><div class="stat-label" data-en="Years of Experience" data-ar="سنوات الخبرة">Years of Experience</div></div>
+      <div class="stat"><div class="stat-num" data-count="17">17</div><div class="stat-label" data-en="Courses Taught" data-ar="المساقات التي درّستها">Courses Taught</div></div>
+      <div class="stat"><div class="stat-num" data-count="10000" data-suffix="+">10,000+</div><div class="stat-label" data-en="Users Served" data-ar="مستخدمون تمت خدمتهم">Users Served</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker" data-en="01 · About" data-ar="٠١ · نبذة">01 · About</span>
+      <h2 class="section-title" data-en="Academic rigor meets industry impact" data-ar="دقة أكاديمية وأثر صناعي">Academic rigor meets industry impact</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p data-en="I am an Assistant Professor of Cybersecurity & AI at the University of Petra and Co-Founder / Head of AI at Sygma Global Software Solutions. My doctoral research at Loughborough University (UK) developed GAN-based architectures for network anomaly detection, and has been published in top-tier venues including Knowledge-Based Systems, Applied Soft Computing and IET Networks." data-ar="أعمل أستاذًا مساعدًا في الأمن السيبراني والذكاء الاصطناعي بجامعة البترا، وشريكًا مؤسسًا ورئيسًا لقسم الذكاء الاصطناعي في شركة Sygma للحلول البرمجية. تمحورت أطروحتي للدكتوراه في جامعة لوفبرا حول تطوير بنى قائمة على شبكات GAN لاكتشاف الشذوذ في الشبكات، وقد نُشرت في أبرز الدوريات العالمية.">I am an Assistant Professor of Cybersecurity & AI at the University of Petra and Co-Founder / Head of AI at Sygma Global Software Solutions. My doctoral research at Loughborough University (UK) developed GAN-based architectures for network anomaly detection, and has been published in top-tier venues including Knowledge-Based Systems, Applied Soft Computing and IET Networks.</p>
+        <p data-en="At Sygma, I lead the design and delivery of AI-powered products — smart ordering systems, data analytics platforms, call-center agents and healthcare AI — bringing academic depth into production-grade engineering. I also serve as Assistant Director of E-Learning and peer-review for Springer, Elsevier and Nature." data-ar="أقود في Sygma تصميم وتطوير منتجات مدعومة بالذكاء الاصطناعي — أنظمة الطلب الذكي ومنصات تحليل البيانات ووكلاء مراكز الاتصال وتطبيقات الذكاء الاصطناعي في الرعاية الصحية — مع الجمع بين العمق الأكاديمي والهندسة الإنتاجية. كما أشغل منصب المدير المساعد للتعلم الإلكتروني، ومراجعًا لدى Springer وElsevier وNature.">At Sygma, I lead the design and delivery of AI-powered products — smart ordering systems, data analytics platforms, call-center agents and healthcare AI — bringing academic depth into production-grade engineering. I also serve as Assistant Director of E-Learning and peer-review for Springer, Elsevier and Nature.</p>
+
+        <div class="about-grid-inner">
+          <div class="about-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h4 data-en="Cybersecurity" data-ar="الأمن السيبراني">Cybersecurity</h4>
+            <p data-en="Intrusion detection, generative defense, threat intelligence." data-ar="كشف الاختراقات والدفاع التوليدي واستخبارات التهديدات.">Intrusion detection, generative defense, threat intelligence.</p>
+          </div>
+          <div class="about-card">
+            <i class="fa-solid fa-brain"></i>
+            <h4 data-en="AI & ML" data-ar="الذكاء الاصطناعي">AI & ML</h4>
+            <p data-en="GANs, deep learning, anomaly detection, computer vision." data-ar="شبكات GAN والتعلم العميق وكشف الشذوذ والرؤية الحاسوبية.">GANs, deep learning, anomaly detection, computer vision.</p>
+          </div>
+          <div class="about-card">
+            <i class="fa-solid fa-rocket"></i>
+            <h4 data-en="Product & Leadership" data-ar="المنتج والقيادة">Product & Leadership</h4>
+            <p data-en="Leading AI teams building production systems in 3 sectors." data-ar="قيادة فرق ذكاء اصطناعي لتطوير أنظمة إنتاجية في ثلاثة قطاعات.">Leading AI teams building production systems in 3 sectors.</p>
+          </div>
+          <div class="about-card">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <h4 data-en="Teaching" data-ar="التدريس">Teaching</h4>
+            <p data-en="18+ graduate and undergraduate courses with 95% satisfaction." data-ar="أكثر من ١٨ مساقًا جامعيًا بنسبة رضا ٩٥٪.">18+ graduate and undergraduate courses with 95% satisfaction.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="about-side">
+        <div class="info-card">
+          <h4 data-en="Quick Facts" data-ar="معلومات سريعة">Quick Facts</h4>
+          <ul class="info-list">
+            <li><i class="fa-solid fa-location-dot"></i><span data-en="Amman, Jordan" data-ar="عمّان، الأردن">Amman, Jordan</span></li>
+            <li><i class="fa-solid fa-briefcase"></i><span data-en="Assistant Professor · AI Lead" data-ar="أستاذ مساعد · رئيس قسم الذكاء الاصطناعي">Assistant Professor · AI Lead</span></li>
+            <li><i class="fa-solid fa-graduation-cap"></i><span data-en="Ph.D., Loughborough University" data-ar="دكتوراه — جامعة لوفبرا">Ph.D., Loughborough University</span></li>
+            <li><i class="fa-solid fa-language"></i><span data-en="Arabic (native), English (fluent)" data-ar="العربية (الأم)، الإنجليزية (بطلاقة)">Arabic (native), English (fluent)</span></li>
+          </ul>
+          <div class="info-links">
+            <a href="https://scholar.google.com/citations?user=uXk3oxMAAAAJ&hl=en" target="_blank" rel="noopener"><i class="fa-solid fa-graduation-cap"></i> Google Scholar</a>
+            <a href="https://www.linkedin.com/in/mohammadarafah/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="https://fit.uop.edu.jo/en/computerscience/pages/academicstaffinfo.aspx?uid=6d006f00680061006d006d00610064002e00610072006100660061006800400075006f0070002e006500640075002e006a006f00" target="_blank" rel="noopener"><i class="fa-solid fa-university"></i> <span data-en="UOP profile" data-ar="الصفحة الجامعية">UOP profile</span></a>
+            <a href="https://sygma.net/en/team/mohammad-arafeh/" target="_blank" rel="noopener"><i class="fa-solid fa-building"></i> Sygma</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE / EDUCATION -->
+<section class="section alt" id="experience">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker" data-en="02 · Journey" data-ar="٠٢ · المسيرة">02 · Journey</span>
+      <h2 class="section-title" data-en="Experience & Education" data-ar="الخبرات والتعليم">Experience & Education</h2>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab-btn active" data-tab="exp" data-en="Experience" data-ar="الخبرات">Experience</button>
+      <button class="tab-btn" data-tab="edu" data-en="Education" data-ar="التعليم">Education</button>
+      <button class="tab-btn" data-tab="roles" data-en="Leadership" data-ar="الأدوار القيادية">Leadership</button>
+    </div>
+
+    <!-- Experience timeline -->
+    <div class="tab-panel active" id="tab-exp">
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-date">2024 — <span data-en="Present" data-ar="حتى الآن">Present</span></span>
+            <h3 data-en="Head of AI · Co-Founder" data-ar="رئيس قسم الذكاء الاصطناعي · شريك مؤسّس">Head of AI · Co-Founder</h3>
+            <a href="https://sygma.net/en/" target="_blank" rel="noopener" class="tl-org">Sygma Global Software Solutions · Amman</a>
+            <ul>
+              <li data-en="Co-founded an AI-driven software company delivering intelligent solutions across restaurant, retail and healthcare sectors." data-ar="شريك مؤسس لشركة برمجيات قائمة على الذكاء الاصطناعي تقدّم حلولًا ذكية لقطاعات المطاعم والتجزئة والرعاية الصحية.">Co-founded an AI-driven software company delivering intelligent solutions across restaurant, retail and healthcare sectors.</li>
+              <li data-en="Leading design & development of AI-powered products: smart ordering, analytics platforms, call-center agents, and healthcare AI." data-ar="أقود تصميم وتطوير منتجات الذكاء الاصطناعي: الطلب الذكي، منصات التحليلات، وكلاء مراكز الاتصال، وتطبيقات الرعاية الصحية.">Leading design & development of AI-powered products: smart ordering, analytics platforms, call-center agents, and healthcare AI.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-date">2023 — <span data-en="Present" data-ar="حتى الآن">Present</span></span>
+            <h3 data-en="Assistant Professor" data-ar="أستاذ مساعد">Assistant Professor</h3>
+            <a href="https://fit.uop.edu.jo/en/computerscience/pages/academicstaffinfo.aspx?uid=6d006f00680061006d006d00610064002e00610072006100660061006800400075006f0070002e006500640075002e006a006f00" target="_blank" rel="noopener" class="tl-org">University of Petra · Amman</a>
+            <ul>
+              <li data-en="Developed and taught undergraduate courses in the Information Security Department with 95% student satisfaction." data-ar="طوّرت ودرّست مساقات جامعية في قسم أمن المعلومات بنسبة رضا طلابي بلغت ٩٥٪.">Developed and taught undergraduate courses in the Information Security Department with 95% student satisfaction.</li>
+              <li data-en="Published research papers in reputable journals and conferences within AI and cybersecurity." data-ar="نشرت أوراقًا بحثية في مجلات ومؤتمرات مرموقة في مجالي الذكاء الاصطناعي والأمن السيبراني.">Published research papers in reputable journals and conferences within AI and cybersecurity.</li>
+              <li data-en="Served on 3 academic committees and contributed to 4 departmental initiatives (+30% interdepartmental collaboration)." data-ar="شاركت في ٣ لجان أكاديمية وأسهمت في ٤ مبادرات قسمية (تعاون بين الأقسام +٣٠٪).">Served on 3 academic committees and contributed to 4 departmental initiatives (+30% interdepartmental collaboration).</li>
+              <li data-en="Organized 6 workshops and seminars on emerging topics in AI and cybersecurity." data-ar="نظّمت ٦ ورش عمل وندوات حول موضوعات ناشئة في الذكاء الاصطناعي والأمن السيبراني.">Organized 6 workshops and seminars on emerging topics in AI and cybersecurity.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-date">2020 — 2023</span>
+            <h3 data-en="Ph.D. Researcher" data-ar="باحث دكتوراه">Ph.D. Researcher</h3>
+            <span class="tl-org">Loughborough University · UK</span>
+            <ul>
+              <li data-en="Research on AI-driven anomaly detection for network intrusion using GAN-based architectures — 4 top-tier journal publications." data-ar="أبحاث حول كشف الشذوذ في الشبكات باستخدام شبكات GAN — ٤ منشورات في مجلات رفيعة.">Research on AI-driven anomaly detection for network intrusion using GAN-based architectures — 4 top-tier journal publications.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-date">2019 — 2020</span>
+            <h3 data-en="Head of Development & Programming" data-ar="رئيس قسم التطوير والبرمجة">Head of Development & Programming</h3>
+            <span class="tl-org">University of Petra · Amman</span>
+            <ul>
+              <li data-en="Led a team of 8 developers, reducing project completion time by 20%." data-ar="قدت فريقًا من ٨ مطوّرين، وخفّضت زمن إنجاز المشاريع بنسبة ٢٠٪.">Led a team of 8 developers, reducing project completion time by 20%.</li>
+              <li data-en="Managed the full SDLC for 12 university systems (deployment: 6 → 4 weeks)." data-ar="أدَرت دورة حياة تطوير كاملة لـ ١٢ نظامًا جامعيًا (مدة النشر: ٦ ← ٤ أسابيع).">Managed the full SDLC for 12 university systems (deployment: 6 → 4 weeks).</li>
+              <li data-en="Conducted 50+ code reviews; mentored 5 junior developers (−35% production bugs)." data-ar="أجريت أكثر من ٥٠ مراجعة للكود وأرشدت ٥ مطوّرين مبتدئين (−٣٥٪ أخطاء إنتاج).">Conducted 50+ code reviews; mentored 5 junior developers (−35% production bugs).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-date">2015 — 2019</span>
+            <h3 data-en="Senior Software Engineer" data-ar="مهندس برمجيات أول">Senior Software Engineer</h3>
+            <span class="tl-org">University of Petra · Amman</span>
+            <ul>
+              <li data-en="Designed 15+ high-performance applications serving 5,000+ users across departments." data-ar="صمّمت أكثر من ١٥ تطبيقًا عالي الأداء يخدم ٥٠٠٠+ مستخدم.">Designed 15+ high-performance applications serving 5,000+ users across departments.</li>
+              <li data-en="Resolved ~25 technical issues / month — 40% downtime reduction, 120 hours saved yearly." data-ar="حللت ٢٥ مشكلة شهريًا — تقليل توقف الأنظمة ٤٠٪ وتوفير ١٢٠ ساعة سنويًا.">Resolved ~25 technical issues / month — 40% downtime reduction, 120 hours saved yearly.</li>
+              <li data-en="Introduced 3 new technologies (+25% team efficiency, −35% code redundancy)." data-ar="أدخلت ٣ تقنيات جديدة (+٢٥٪ كفاءة الفريق، −٣٥٪ تكرار الشيفرة).">Introduced 3 new technologies (+25% team efficiency, −35% code redundancy).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-date">2014 — 2015</span>
+            <h3 data-en="Computer Teacher" data-ar="معلم حاسوب">Computer Teacher</h3>
+            <span class="tl-org" data-en="Ministry of Education · Jordan" data-ar="وزارة التربية والتعليم · الأردن">Ministry of Education · Jordan</span>
+            <ul>
+              <li data-en="Developed 15 lesson plans and 10 project-based assessments — 85% improved technical skills." data-ar="طوّرت ١٥ خطة درس و١٠ تقييمات قائمة على المشاريع — ٨٥٪ تحسنت مهاراتهم التقنية.">Developed 15 lesson plans and 10 project-based assessments — 85% improved technical skills.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-date">2012 — 2013</span>
+            <h3 data-en="Junior Software Developer" data-ar="مطوّر برمجيات مبتدئ">Junior Software Developer</h3>
+            <span class="tl-org">Acorna Company · Amman</span>
+            <ul>
+              <li data-en="Built 5 web apps (JS/HTML/CSS) serving 500+ daily active users; contributed to RESTful APIs." data-ar="بنيت ٥ تطبيقات ويب (JS/HTML/CSS) تخدم ٥٠٠+ مستخدم يوميًا، وساهمت في واجهات REST.">Built 5 web apps (JS/HTML/CSS) serving 500+ daily active users; contributed to RESTful APIs.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="tab-panel" id="tab-edu">
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-year">2020 — 2023</div>
+          <h3>Loughborough University · UK</h3>
+          <p class="edu-degree" data-en="Ph.D. in Cybersecurity & Artificial Intelligence" data-ar="دكتوراه في الأمن السيبراني والذكاء الاصطناعي">Ph.D. in Cybersecurity & Artificial Intelligence</p>
+          <p class="edu-dept" data-en="Department of Computer Science" data-ar="قسم علوم الحاسوب">Department of Computer Science</p>
+        </div>
+        <div class="edu-card">
+          <div class="edu-year">2013 — 2015</div>
+          <h3>The University of Jordan</h3>
+          <p class="edu-degree" data-en="M.S. in Information Systems · GPA 3.66/4.00" data-ar="ماجستير في نظم المعلومات · المعدل ٣٫٦٦/٤٫٠٠">M.S. in Information Systems · GPA 3.66/4.00</p>
+          <p class="edu-dept" data-en="Specialization: Image Processing" data-ar="التخصص: معالجة الصور">Specialization: Image Processing</p>
+        </div>
+        <div class="edu-card">
+          <div class="edu-year">2008 — 2012</div>
+          <h3>Zarqa University</h3>
+          <p class="edu-degree" data-en="B.S. in Software Engineering · 84/100" data-ar="بكالوريوس هندسة البرمجيات · ٨٤/١٠٠">B.S. in Software Engineering · 84/100</p>
+          <p class="edu-dept" data-en="Graduation Project: School Management System" data-ar="مشروع التخرج: نظام إدارة المدارس">Graduation Project: School Management System</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Leadership -->
+    <div class="tab-panel" id="tab-roles">
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-year">2023 — <span data-en="Present" data-ar="حتى الآن">Present</span></div>
+          <h3 data-en="Assistant Director of E-Learning" data-ar="المدير المساعد للتعلم الإلكتروني">Assistant Director of E-Learning</h3>
+          <p class="edu-dept">University of Petra</p>
+        </div>
+        <div class="edu-card">
+          <div class="edu-year">2023 — <span data-en="Present" data-ar="حتى الآن">Present</span></div>
+          <h3 data-en="Faculty Council Member" data-ar="عضو مجلس الكلية">Faculty Council Member</h3>
+          <p class="edu-dept">University of Petra</p>
+        </div>
+        <div class="edu-card">
+          <div class="edu-year">2020 — <span data-en="Present" data-ar="حتى الآن">Present</span></div>
+          <h3 data-en="Peer Reviewer" data-ar="مراجع علمي">Peer Reviewer</h3>
+          <p class="edu-dept">Springer · Elsevier · Nature</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section class="section" id="publications">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker" data-en="03 · Research" data-ar="٠٣ · البحث العلمي">03 · Research</span>
+      <h2 class="section-title" data-en="Publications" data-ar="المنشورات العلمية">Publications</h2>
+      <p class="section-sub" data-en="22 journal articles, book chapters and conference papers in AI, cybersecurity, and applied ML. Click any title to open it in Google Scholar." data-ar="٢٢ مقالة علمية وفصلاً كتابياً وورقة مؤتمر في الذكاء الاصطناعي والأمن السيبراني والتعلم الآلي التطبيقي. انقر على أي عنوان لفتحه في Google Scholar.">22 journal articles, book chapters and conference papers in AI, cybersecurity, and applied ML. Click any title to open it in Google Scholar.</p>
+    </div>
+
+    <div class="tabs pubs-tabs" role="tablist">
+      <button class="tab-btn active" data-tab="jour"><i class="fa-solid fa-book-open-reader"></i><span data-en="Journal Articles (4)" data-ar="المقالات العلمية (٤)">Journal Articles (4)</span></button>
+      <button class="tab-btn" data-tab="book"><i class="fa-solid fa-book"></i><span data-en="Book Chapters (9)" data-ar="فصول الكتب (٩)">Book Chapters (9)</span></button>
+      <button class="tab-btn" data-tab="conf"><i class="fa-solid fa-users-rectangle"></i><span data-en="Conference Papers (9)" data-ar="أوراق المؤتمرات (٩)">Conference Papers (9)</span></button>
+    </div>
+
+    <div class="tab-panel active" id="tab-jour">
+    <div class="pub-groups">
+      <div class="pub-group">
+        <div class="pub-year">2025</div>
+        <div class="pub-items">
+          <a href="https://doi.org/10.1016/j.knosys.2025.113178" target="_blank" rel="noopener" class="pub-item">
+            <h4>An enhanced BiGAN architecture for network intrusion detection <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, I. Phillips, A. Adnane, M. Alauthman, N. Aslam</p>
+            <p class="pub-venue"><em>Knowledge-Based Systems</em>, 314, 113178</p>
+          </a>
+        </div>
+      </div>
+      <div class="pub-group">
+        <div class="pub-year">2024</div>
+        <div class="pub-items">
+          <a href="https://doi.org/10.1016/j.asoc.2024.112455" target="_blank" rel="noopener" class="pub-item">
+            <h4>Anomaly-based network intrusion detection using denoising autoencoder and Wasserstein GAN synthetic attacks <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, I. Phillips, A. Adnane, W. Hadi, M. Alauthman, A. Al-Banna</p>
+            <p class="pub-venue"><em>Applied Soft Computing</em>, 168, 112455</p>
+          </a>
+        </div>
+      </div>
+      <div class="pub-group">
+        <div class="pub-year">2023</div>
+        <div class="pub-items">
+          <a href="https://scholar.google.com/scholar?q=Evaluating+the+impact+of+generative+adversarial+models+on+the+performance+of+anomaly+intrusion+detection+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Evaluating the impact of generative adversarial models on the performance of anomaly intrusion detection <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, I. Phillips, A. Adnane</p>
+            <p class="pub-venue"><em>IET Networks</em>, 1–17</p>
+          </a>
+        </div>
+      </div>
+      <div class="pub-group">
+        <div class="pub-year">2016</div>
+        <div class="pub-items">
+          <a href="https://scholar.google.com/scholar?q=Efficient+Image+Recognition+Technique+Using+Invariant+Moments+and+Principle+Component+Analysis+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Efficient Image Recognition Technique Using Invariant Moments and Principle Component Analysis <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, Q. Abu Moghli</p>
+            <p class="pub-venue"><em>Journal of Data Analysis and Information Processing</em>, 1–10</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="tab-panel" id="tab-book">
+    <div class="pub-groups">
+      <div class="pub-group">
+        <div class="pub-year">2026</div>
+        <div class="pub-items">
+          <a href="https://scholar.google.com/scholar?q=Children+in+Digital+Spaces+Safety+Privacy+Protection+Age+AI+Abdulraheem+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Children in Digital Spaces: Safety, Privacy, and Protection in the Age of AI <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors">A. Abdulraheem, <strong>M. Arafah</strong></p>
+            <p class="pub-venue"><em>Integrating Parental Consent and Child Engagement With Digital Protection Rules</em>, 1–30</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=AI+for+Threat+Intelligence+Integration+Cybersecurity+Insurance+Arafah+Aladawi" target="_blank" rel="noopener" class="pub-item">
+            <h4>AI for Threat Intelligence Integration in Cybersecurity Insurance <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, A. Aladawi</p>
+            <p class="pub-venue"><em>Cybersecurity Insurance Frameworks and Innovations in the AI Era</em>, 179–226</p>
+          </a>
+        </div>
+      </div>
+      <div class="pub-group">
+        <div class="pub-year">2025</div>
+        <div class="pub-items">
+          <a href="https://scholar.google.com/scholar?q=Detection+Analysis+AI-Generated+Malicious+Content+Arafah+Al-Banna" target="_blank" rel="noopener" class="pub-item">
+            <h4>Detection and Analysis of AI-Generated Malicious Content <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, A. Al-Banna, A. Aladawi</p>
+            <p class="pub-venue"><em>Examining Cybersecurity Risks Produced by Generative AI</em>, 1–42</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=AI-Powered+Social+Engineering+Impersonation+Attacks+Arafah+Karadsheh" target="_blank" rel="noopener" class="pub-item">
+            <h4>AI-Powered Social Engineering and Impersonation Attacks <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, L. Karadsheh, F. Aburub, S. Alhariri</p>
+            <p class="pub-venue"><em>Examining Cybersecurity Risks Produced by Generative AI</em>, 123–142</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=Generative+AI+Evolving+Threat+Landscape+Security+Professional+Guide+Karadsheh+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Generative AI and the Evolving Threat Landscape: A Security Professional's Guide <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors">L. Karadsheh, J. E. Barnard, <strong>M. Arafah</strong></p>
+            <p class="pub-venue"><em>Examining Cybersecurity Risks Produced by Generative AI</em>, 1–28</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=Formal+Verification+Theory+AI-Driven+Autonomous+Defense+Systems+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Formal Verification Theory for AI-Driven Autonomous Defense Systems <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, L. Karadsheh, A. Almughrabi</p>
+            <p class="pub-venue"><em>Complexities and Challenges for Securing Digital Assets and Infrastructure</em>, 1–20</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=Cybersecurity+Age+Digital+Transformation+Protecting+Assets+Infrastructure+Innovation+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Cybersecurity in the Age of Digital Transformation <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, A. Al-Banna, A. Aladawi</p>
+            <p class="pub-venue"><em>Complexities and Challenges for Securing Digital Assets and Infrastructure</em>, 265–290</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=Theoretical+frameworks+zero-knowledge+proof+integration+autonomous+defense+systems+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Theoretical frameworks for zero-knowledge proof integration in autonomous defense systems <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, F. Aburub, S. Alhariri</p>
+            <p class="pub-venue"><em>AI-Driven Security Systems and Intelligent Threat Response Using Autonomous Cyber Defense</em>, 1–28</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=Cybersecurity+Autonomous+Electric+Vehicles+EVs+Arafah+Aladawi+Karadsheh" target="_blank" rel="noopener" class="pub-item">
+            <h4>Cybersecurity for Autonomous Electric Vehicles (EVs) <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, A. Aladawi, L. Karadsheh</p>
+            <p class="pub-venue"><em>AI-Driven Security Systems and Intelligent Threat Response Using Autonomous Cyber Defense</em>, 439–463</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="tab-panel" id="tab-conf">
+    <div class="pub-groups">
+      <div class="pub-group">
+        <div class="pub-year">2025</div>
+        <div class="pub-items">
+          <a href="https://scholar.google.com/scholar?q=Analyzing+Digital+Media+Preferences+Parents+Jordan+Machine+Learning+Content+Classification+Abdulraheem+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Analyzing Digital Media Preferences of Parents in Jordan: A Machine Learning Approach to Content Classification <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors">A. Abdulraheem, <strong>M. Arafah</strong>, S. Abdelrahim</p>
+            <p class="pub-venue">ICCIAA, 1–7</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=Intelligent+Age+Group+Classification+System+Animated+Films+Hybrid+Machine+Learning+Abdulraheem+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Intelligent Age Group Classification System for Animated Films Using Hybrid Machine Learning Models <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors">A. Abdulraheem, <strong>M. Arafah</strong>, A. Aladawi</p>
+            <p class="pub-venue">ICCIAA, 1–5</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=Enhanced+Autism+Spectrum+Disorder+Detection+Toddlers+Machine+Learning+Deep+Learning+Hadi+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Enhanced Autism Spectrum Disorder Detection in Toddlers Using Machine Learning and Deep Learning <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors">W. Hadi, E. Mangina, M. Alnashashibi, F. Matin, <strong>M. Arafah</strong>, A. Al-Banna</p>
+            <p class="pub-venue">ICCIAA, 1–5</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=Enhanced+Stroke+Prediction+Autoencoder-Based+Feature+Compression+Ensemble+Classification+Al-Hyasat+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Enhanced Stroke Prediction Through Autoencoder-Based Feature Compression and Ensemble Classification <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors">G. Al-Hyasat, <strong>M. Arafah</strong>, L. Karadsheh, A. Aladawi</p>
+            <p class="pub-venue">ICCIAA, 1–5</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=ClearFlow+Fluent+Communication+RAG+Text+Generation+Stutter+Al-Banna+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>ClearFlow: Empowering Fluent Communication Through RAG-Based Text Generation for People Who Stutter <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors">A. Al-Banna, <strong>M. Arafah</strong>, M. Al-habahbeh, M. Abu-Arqoub, M. AlShaikh-Hasan</p>
+            <p class="pub-venue">ICCIAA, 1–5</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=Advancing+IoV+Security+Machine+Learning+CICIoV2024+Benchmark+Dataset+Arafah+Adnane" target="_blank" rel="noopener" class="pub-item">
+            <h4>Advancing IoV Security Through Machine Learning: Design and Evaluation of the CICIoV2024 Benchmark Dataset <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors"><strong>M. Arafah</strong>, A. Adnane, W. Hadi, G. Al-Hyasat, M. Al-Habahbeh</p>
+            <p class="pub-venue">ICCIAA, 1–5</p>
+          </a>
+        </div>
+      </div>
+      <div class="pub-group">
+        <div class="pub-year">2024</div>
+        <div class="pub-items">
+          <a href="https://scholar.google.com/scholar?q=Autism+Spectrum+Disorder+Prediction+Machine+Learning+Classifiers+Aburub+Hadi+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Autism Spectrum Disorder Prediction Using Machine Learning Classifiers <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors">F. Aburub, W. Hadi, A. Al-Banna, <strong>M. Arafah</strong></p>
+            <p class="pub-venue">ICCR</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=Empowering+Learning+Analytics+Business+Intelligence+El-khalili+Abu+Arqoub+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>Empowering Learning Analytics with Business Intelligence <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors">N. El-khalili, M. Abu Arqoub, M. Al-shaikh Hasan, A. Banna, <strong>M. Arafah</strong></p>
+            <p class="pub-venue">ICCR</p>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=Impact+Stuttering+Event+Representation+Detection+Performance+Al-Banna+Fang+Arafah" target="_blank" rel="noopener" class="pub-item">
+            <h4>The Impact of Stuttering Event Representation on Detection Performance <i class="fa-solid fa-arrow-up-right-from-square pub-ext"></i></h4>
+            <p class="pub-authors">A. Al-Banna, H. Fang, A. F. Shubita, <strong>M. Arafah</strong>, A. Eqteeshat, S. B. Abuaisheh</p>
+            <p class="pub-venue">ICCR</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="pub-cta">
+      <a href="https://scholar.google.com/citations?user=uXk3oxMAAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn-outline">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <span data-en="View full profile on Google Scholar" data-ar="الصفحة الكاملة على Google Scholar">View full profile on Google Scholar</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TEACHING -->
+<section class="section alt" id="teaching">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker" data-en="04 · Teaching" data-ar="٠٤ · التدريس">04 · Teaching</span>
+      <h2 class="section-title" data-en="Courses & Faculty Training" data-ar="المساقات وبرامج تدريب أعضاء هيئة التدريس">Courses & Faculty Training</h2>
+    </div>
+
+    <h3 class="sub-title" data-en="Courses Taught" data-ar="المساقات التي درّستها">Courses Taught</h3>
+    <div class="chip-grid">
+      <span class="chip"><i class="fa-solid fa-code"></i> Programming for Data Science</span>
+      <span class="chip"><i class="fa-solid fa-database"></i> Data Mining</span>
+      <span class="chip"><i class="fa-solid fa-chart-simple"></i> Data Visualization</span>
+      <span class="chip"><i class="fa-solid fa-server"></i> Big Data</span>
+      <span class="chip"><i class="fa-solid fa-sitemap"></i> Data Structures & Algorithms</span>
+      <span class="chip"><i class="fa-solid fa-shield-halved"></i> Cybersecurity Fundamentals</span>
+      <span class="chip"><i class="fa-solid fa-lock"></i> Information & Network Security Programming</span>
+      <span class="chip"><i class="fa-brands fa-linux"></i> Linux Security Fundamentals</span>
+      <span class="chip"><i class="fa-solid fa-wifi"></i> Secure Wireless Application Programming</span>
+      <span class="chip"><i class="fa-solid fa-shield-virus"></i> Software Development Security</span>
+      <span class="chip"><i class="fa-solid fa-code"></i> Programming Language 1 & 2</span>
+      <span class="chip"><i class="fa-solid fa-gears"></i> Programming for Engineers</span>
+      <span class="chip"><i class="fa-solid fa-computer"></i> Information Technology Fundamentals</span>
+      <span class="chip"><i class="fa-solid fa-globe"></i> Internet Programming</span>
+      <span class="chip"><i class="fa-solid fa-network-wired"></i> Intro to Data Comm & Networking</span>
+      <span class="chip"><i class="fa-solid fa-palette"></i> Intro to Web Design</span>
+    </div>
+
+    <h3 class="sub-title" data-en="Faculty Training Programs Delivered" data-ar="برامج التدريب لأعضاء هيئة التدريس">Faculty Training Programs Delivered</h3>
+    <div class="training-grid">
+      <div class="train-card"><i class="fa-brands fa-python"></i><h4>Python Programming</h4><span>UOP · 2024</span></div>
+      <div class="train-card"><i class="fa-solid fa-brain"></i><h4 data-en="Introduction to AI" data-ar="مقدمة في الذكاء الاصطناعي">Introduction to AI</h4><span>UOP · 2024</span></div>
+      <div class="train-card"><i class="fa-solid fa-microscope"></i><h4 data-en="AI Tools for Scientific Research" data-ar="أدوات الذكاء الاصطناعي للبحث العلمي">AI Tools for Scientific Research</h4><span>UOP · 2024</span></div>
+      <div class="train-card"><i class="fa-solid fa-apple-whole"></i><h4 data-en="AI Applications in Nutrition" data-ar="تطبيقات الذكاء الاصطناعي في التغذية">AI Applications in Nutrition</h4><span>UOP · 2024</span></div>
+      <div class="train-card"><i class="fa-solid fa-helmet-safety"></i><h4 data-en="AI in Civil Engineering" data-ar="الذكاء الاصطناعي في الهندسة المدنية">AI in Civil Engineering</h4><span>UOP · 2025</span></div>
+      <div class="train-card"><i class="fa-solid fa-chart-line"></i><h4 data-en="Statistical Analysis using AI" data-ar="التحليل الإحصائي باستخدام الذكاء الاصطناعي">Statistical Analysis using AI</h4><span>UOP · 2025</span></div>
+      <div class="train-card"><i class="fa-solid fa-rocket"></i><h4 data-en="Accelerating Research with Claude" data-ar="تسريع البحث العلمي باستخدام Claude">Accelerating Research with Claude</h4><span>UOP · 2025</span></div>
+      <div class="train-card"><i class="fa-solid fa-square-root-variable"></i><h4>SPSS Statistical Analysis</h4><span>UOP · 2025</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker" data-en="05 · Stack" data-ar="٠٥ · المهارات">05 · Stack</span>
+      <h2 class="section-title" data-en="Skills & Technologies" data-ar="المهارات والتقنيات">Skills & Technologies</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4><i class="fa-solid fa-code"></i> <span data-en="Programming Languages" data-ar="لغات البرمجة">Programming Languages</span></h4>
+        <div class="skill-chips">
+          <span class="skill-chip"><i class="fa-brands fa-python"></i> Python</span>
+          <span class="skill-chip">C#</span>
+          <span class="skill-chip"><i class="fa-brands fa-java"></i> Java</span>
+          <span class="skill-chip">MATLAB</span>
+          <span class="skill-chip">SQL</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h4><i class="fa-solid fa-cubes"></i> <span data-en="Technologies & Frameworks" data-ar="التقنيات والأطر">Technologies & Frameworks</span></h4>
+        <div class="skill-chips">
+          <span class="skill-chip">TensorFlow</span>
+          <span class="skill-chip">PyTorch</span>
+          <span class="skill-chip">OpenCV</span>
+          <span class="skill-chip">Scikit-Learn</span>
+          <span class="skill-chip">Flask</span>
+          <span class="skill-chip">Django</span>
+          <span class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+          <span class="skill-chip"><i class="fa-brands fa-docker"></i> Docker</span>
+          <span class="skill-chip"><i class="fa-brands fa-aws"></i> AWS</span>
+          <span class="skill-chip">MySQL</span>
+          <span class="skill-chip">MariaDB</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h4><i class="fa-solid fa-lightbulb"></i> <span data-en="Domain Knowledge" data-ar="التخصصات">Domain Knowledge</span></h4>
+        <div class="skill-chips">
+          <span class="skill-chip" data-en="Machine Learning" data-ar="التعلم الآلي">Machine Learning</span>
+          <span class="skill-chip" data-en="Deep Learning" data-ar="التعلم العميق">Deep Learning</span>
+          <span class="skill-chip" data-en="Generative Modelling" data-ar="النمذجة التوليدية">Generative Modelling</span>
+          <span class="skill-chip" data-en="Anomaly Detection" data-ar="كشف الشذوذ">Anomaly Detection</span>
+          <span class="skill-chip" data-en="Computer Vision" data-ar="الرؤية الحاسوبية">Computer Vision</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h4><i class="fa-solid fa-diagram-project"></i> <span data-en="Methodologies" data-ar="المنهجيات">Methodologies</span></h4>
+        <div class="skill-chips">
+          <span class="skill-chip">OOP</span>
+          <span class="skill-chip" data-en="Design Patterns" data-ar="أنماط التصميم">Design Patterns</span>
+          <span class="skill-chip">Agile</span>
+          <span class="skill-chip">Scrum</span>
+          <span class="skill-chip">DevOps</span>
+          <span class="skill-chip" data-en="Cybersecurity Practices" data-ar="ممارسات الأمن السيبراني">Cybersecurity Practices</span>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="sub-title" data-en="Professional Certifications" data-ar="الشهادات المهنية">Professional Certifications</h3>
+    <div class="cert-grid">
+      <a href="PCEP%E2%84%A2%20%E2%80%93%20Certified%20Entry-Level%20Python%20Programmer.pdf" target="_blank" rel="noopener" class="cert-card">
+        <div class="cert-badge"><i class="fa-brands fa-python"></i></div>
+        <div>
+          <h4>PCEP — Certified Entry-Level Python Programmer</h4>
+          <span>Python Institute · 2026</span>
+        </div>
+        <i class="fa-solid fa-arrow-up-right-from-square cert-arrow"></i>
+      </a>
+      <div class="cert-card">
+        <div class="cert-badge"><i class="fa-solid fa-chart-bar"></i></div>
+        <div><h4>Data Manipulation with Pandas</h4><span>DataCamp · 2021</span></div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-badge"><i class="fa-solid fa-brain"></i></div>
+        <div><h4>Machine Learning for Everyone</h4><span>DataCamp · 2021</span></div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-badge"><i class="fa-brands fa-python"></i></div>
+        <div><h4>Introduction to Python</h4><span>DataCamp · 2021</span></div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-badge"><i class="fa-brands fa-python"></i></div>
+        <div><h4>Intermediate Python</h4><span>DataCamp · 2021</span></div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-badge"><i class="fa-solid fa-database"></i></div>
+        <div><h4>Introduction to Data Science in Python</h4><span>DataCamp · 2022</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section alt" id="projects">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker" data-en="06 · Projects" data-ar="٠٦ · المشاريع">06 · Projects</span>
+      <h2 class="section-title" data-en="Selected Projects" data-ar="مشاريع مختارة">Selected Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-building-columns"></i></div>
+        <h3 data-en="University of Petra Systems" data-ar="أنظمة جامعة البترا">University of Petra Systems</h3>
+        <p data-en="Delivered 5 major systems — instructor profiles, placement tests, transportation, embassy — serving 10,000+ users and reducing administrative processing time by 35%." data-ar="سلّمت ٥ أنظمة رئيسية — ملفات المدرسين، اختبارات تحديد المستوى، النقل، الخدمات الخارجية — تخدم أكثر من ١٠٬٠٠٠ مستخدم وخفّضت زمن المعالجة الإدارية ٣٥٪.">Delivered 5 major systems — instructor profiles, placement tests, transportation, embassy — serving 10,000+ users and reducing administrative processing time by 35%.</p>
+        <div class="project-tags">
+          <span>C#</span><span>.NET</span><span>SQL Server</span><span data-en="Enterprise" data-ar="مؤسّسي">Enterprise</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-industry"></i></div>
+        <h3>Acorna ERP System</h3>
+        <p data-en="Contributed to an ERP integrating 6 business functions (finance, HR, inventory, sales, procurement, CRM) — 95% client satisfaction and 40% operational efficiency improvement." data-ar="ساهمت في نظام ERP يدمج ٦ وظائف (المالية، الموارد البشرية، المخزون، المبيعات، المشتريات، إدارة العملاء) — رضا ٩٥٪ وتحسين كفاءة بنسبة ٤٠٪.">Contributed to an ERP integrating 6 business functions (finance, HR, inventory, sales, procurement, CRM) — 95% client satisfaction and 40% operational efficiency improvement.</p>
+        <div class="project-tags">
+          <span>ERP</span><span>JavaScript</span><span>REST APIs</span><span>MySQL</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3 data-en="AI-Driven Intrusion Detection (Ph.D.)" data-ar="كشف الاختراقات بالذكاء الاصطناعي (دكتوراه)">AI-Driven Intrusion Detection (Ph.D.)</h3>
+        <p data-en="GAN-based architectures (BiGAN, WGAN, denoising autoencoders) for anomaly detection in network traffic — 4 top-tier journal publications." data-ar="بنى قائمة على GAN (BiGAN، WGAN، المشفّرات الذاتية المزيلة للضوضاء) لكشف الشذوذ في حركة الشبكات — ٤ منشورات في مجلات رفيعة.">GAN-based architectures (BiGAN, WGAN, denoising autoencoders) for anomaly detection in network traffic — 4 top-tier journal publications.</p>
+        <div class="project-tags">
+          <span>PyTorch</span><span>TensorFlow</span><span>GAN</span><span>IDS</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-utensils"></i></div>
+        <h3 data-en="Sygma Smart Ordering" data-ar="نظام Sygma للطلب الذكي">Sygma Smart Ordering</h3>
+        <p data-en="AI-powered smart ordering platform for restaurants — menu intelligence, personalised recommendations and real-time analytics." data-ar="منصة طلبات ذكية للمطاعم تعتمد على الذكاء الاصطناعي — ذكاء القوائم، توصيات مخصصة، وتحليلات فورية.">AI-powered smart ordering platform for restaurants — menu intelligence, personalised recommendations and real-time analytics.</p>
+        <div class="project-tags">
+          <span>AI</span><span>Recommenders</span><span>Analytics</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-headset"></i></div>
+        <h3 data-en="AI Call-Center Agent" data-ar="وكيل مركز الاتصال بالذكاء الاصطناعي">AI Call-Center Agent</h3>
+        <p data-en="Conversational AI agents for customer service across retail and healthcare — voice, routing, and agent-assist." data-ar="وكلاء محادثة ذكاء اصطناعي لخدمة العملاء في قطاعي التجزئة والرعاية الصحية — صوت، توجيه، ومساعدة الوكلاء.">Conversational AI agents for customer service across retail and healthcare — voice, routing, and agent-assist.</p>
+        <div class="project-tags">
+          <span>LLM</span><span>RAG</span><span>Speech</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+        <h3 data-en="Healthcare AI" data-ar="تطبيقات الذكاء الاصطناعي الصحية">Healthcare AI</h3>
+        <p data-en="Clinical decision-support and predictive models for stroke and autism-spectrum screening — published in ICCIAA '25." data-ar="نماذج دعم قرار سريري وتنبؤ لمرض الجلطة وفحص طيف التوحد — منشورة في ICCIAA '25.">Clinical decision-support and predictive models for stroke and autism-spectrum screening — published in ICCIAA '25.</p>
+        <div class="project-tags">
+          <span data-en="Deep Learning" data-ar="تعلم عميق">Deep Learning</span><span data-en="Healthcare" data-ar="الرعاية الصحية">Healthcare</span><span data-en="Clinical AI" data-ar="ذكاء سريري">Clinical AI</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker" data-en="07 · Contact" data-ar="٠٧ · التواصل">07 · Contact</span>
+      <h2 class="section-title" data-en="Let's collaborate" data-ar="فلنعمل معًا">Let's collaborate</h2>
+      <p class="section-sub" data-en="Open to research collaborations, AI consulting, speaking invitations and graduate supervision." data-ar="مرحّب بالتعاون البحثي، والاستشارات في الذكاء الاصطناعي، ودعوات المحاضرات والإشراف على طلاب الدراسات العليا.">Open to research collaborations, AI consulting, speaking invitations and graduate supervision.</p>
+    </div>
+
+    <div class="contact-grid">
+      <a href="mailto:mohammad_arafah@hotmail.com" class="contact-card">
+        <i class="fa-solid fa-envelope"></i>
+        <div><h4 data-en="Email" data-ar="البريد الإلكتروني">Email</h4><span>mohammad_arafah@hotmail.com</span></div>
+      </a>
+      <a href="tel:+962785516733" class="contact-card">
+        <i class="fa-solid fa-phone"></i>
+        <div><h4 data-en="Phone" data-ar="الهاتف">Phone</h4><span dir="ltr">+962 785 516 733</span></div>
+      </a>
+      <a href="https://www.linkedin.com/in/mohammadarafah/" target="_blank" rel="noopener" class="contact-card">
+        <i class="fa-brands fa-linkedin"></i>
+        <div><h4>LinkedIn</h4><span>/in/mohammadarafah</span></div>
+      </a>
+      <a href="https://scholar.google.com/citations?user=uXk3oxMAAAAJ&hl=en" target="_blank" rel="noopener" class="contact-card">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <div><h4>Google Scholar</h4><span data-en="Publications & citations" data-ar="المنشورات والاستشهادات">Publications & citations</span></div>
+      </a>
+      <a href="https://fit.uop.edu.jo/en/computerscience/pages/academicstaffinfo.aspx?uid=6d006f00680061006d006d00610064002e00610072006100660061006800400075006f0070002e006500640075002e006a006f00" target="_blank" rel="noopener" class="contact-card">
+        <i class="fa-solid fa-university"></i>
+        <div><h4 data-en="University of Petra" data-ar="جامعة البترا">University of Petra</h4><span data-en="Academic profile" data-ar="الصفحة الأكاديمية">Academic profile</span></div>
+      </a>
+      <a href="https://sygma.net/en/team/mohammad-arafeh/" target="_blank" rel="noopener" class="contact-card">
+        <i class="fa-solid fa-building"></i>
+        <div><h4>Sygma</h4><span data-en="Company profile" data-ar="صفحة الشركة">Company profile</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>Dr. Mohammad Arafah</strong>
+      <p data-en="Assistant Professor · AI Lead & Co-Founder" data-ar="أستاذ مساعد · رئيس قسم الذكاء الاصطناعي وشريك مؤسّس">Assistant Professor · AI Lead & Co-Founder</p>
+    </div>
+    <div class="footer-socials">
+      <a href="https://scholar.google.com/citations?user=uXk3oxMAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+      <a href="https://www.linkedin.com/in/mohammadarafah/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="mailto:mohammad_arafah@hotmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Mohammad Arafah — <span data-en="All rights reserved." data-ar="جميع الحقوق محفوظة.">All rights reserved.</span></p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
