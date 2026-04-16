@@ -104,11 +104,13 @@
   /* ---------- Scroll progress + navbar state ---------- */
   const progress = document.getElementById('scrollProgress');
   const toTop = document.getElementById('toTop');
+  const navbar = document.getElementById('navbar');
   const onScroll = () => {
     const s = window.scrollY;
     const h = document.documentElement.scrollHeight - window.innerHeight;
     progress.style.width = (s / h) * 100 + '%';
     toTop.classList.toggle('visible', s > 400);
+    if (navbar) navbar.classList.toggle('scrolled', s > 20);
 
     // active nav
     const sections = document.querySelectorAll('section[id]');
@@ -157,7 +159,7 @@
     '.section-head', '.about-card', '.info-card',
     '.tl-item', '.edu-card', '.pub-group', '.chip',
     '.train-card', '.skill-group', '.cert-card',
-    '.project-card', '.contact-card', '.stat'
+    '.project-card', '.contact-card'
   ];
   revealSelectors.forEach((sel) =>
     document.querySelectorAll(sel).forEach((el) => el.classList.add('reveal'))
@@ -177,13 +179,15 @@
   const runCount = (el) => {
     const target = parseInt(el.dataset.count || '0', 10);
     const suffix = el.dataset.suffix || '';
-    const duration = 1600;
+    // Scale duration with target size so small numbers don't flash by
+    const duration = Math.min(2600, 1400 + Math.log10(Math.max(target, 10)) * 350);
     const start = performance.now();
     el.dataset.done = '1';
+    const ease = (p) =>
+      p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2; // easeInOutCubic
     const step = (t) => {
       const p = Math.min((t - start) / duration, 1);
-      const eased = 1 - Math.pow(1 - p, 3);
-      const val = Math.floor(eased * target);
+      const val = Math.floor(ease(p) * target);
       el.textContent = val.toLocaleString() + suffix;
       if (p < 1) requestAnimationFrame(step);
       else el.textContent = target.toLocaleString() + suffix;
@@ -196,15 +200,10 @@
       runCount(e.target);
       cio.unobserve(e.target);
     });
-  }, { threshold: 0.15, rootMargin: '0px 0px -10% 0px' });
+  }, { threshold: 0.25, rootMargin: '0px 0px -10% 0px' });
   counters.forEach((c) => {
-    // show final value immediately as fallback, then animate when in view
-    const target = parseInt(c.dataset.count || '0', 10);
     const suffix = c.dataset.suffix || '';
-    c.textContent = target.toLocaleString() + suffix;
-    // reset to 0 only if user hasn't scrolled past yet
-    const rect = c.getBoundingClientRect();
-    if (rect.top > window.innerHeight) c.textContent = '0' + suffix;
+    c.textContent = '0' + suffix;
     cio.observe(c);
   });
 
