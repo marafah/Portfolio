@@ -246,34 +246,37 @@
               </circle>
             </g>
 
-            <!-- Central shield (cybersecurity) -->
-            <g transform="translate(200 200)">
-              <path d="M0 -65 L50 -46 L50 8 C50 40 27 65 0 73 C-27 65 -50 40 -50 8 L-50 -46 Z"
-                    fill="url(#shieldGrad)" opacity="0.92"/>
-              <path d="M0 -65 L50 -46 L50 8 C50 40 27 65 0 73 C-27 65 -50 40 -50 8 L-50 -46 Z"
-                    fill="none" stroke="#ffffff" stroke-opacity="0.7" stroke-width="1.5"/>
+            <!-- Central generative AI icon -->
+            <g transform="translate(200 200)" filter="url(#glowStrong)">
+              <!-- Outer glow circle -->
+              <circle cx="0" cy="0" r="48" fill="#4000A5" opacity="0.35"/>
+              <circle cx="0" cy="0" r="48" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
 
-              <!-- Circuit ring around lock -->
-              <circle cx="0" cy="-5" r="28" fill="none" stroke="#4000A5" stroke-width="1.8" stroke-opacity="0.5" stroke-dasharray="4 6"/>
-              <circle cx="0" cy="-5" r="28" fill="none" stroke="#00C2FF" stroke-width="1.5" stroke-opacity="0.6" stroke-dasharray="4 50">
-                <animateTransform attributeName="transform" type="rotate" from="0 0 -5" to="360 0 -5" dur="6s" repeatCount="indefinite"/>
+              <!-- Sparkle star (4-point) — generative AI symbol -->
+              <g>
+                <path d="M0 -32 C3 -12, 12 -3, 32 0 C12 3, 3 12, 0 32 C-3 12, -12 3, -32 0 C-12 -3, -3 -12, 0 -32Z"
+                      fill="#ffffff" opacity="0.92"/>
+                <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="3s" repeatCount="indefinite"/>
+              </g>
+
+              <!-- Inner sparkle (rotated 45°) -->
+              <g transform="rotate(45)">
+                <path d="M0 -18 C2 -7, 7 -2, 18 0 C7 2, 2 7, 0 18 C-2 7, -7 2, -18 0 C-7 -2, -2 -7, 0 -18Z"
+                      fill="#00C2FF" opacity="0.7"/>
+                <animateTransform attributeName="transform" type="rotate" from="45" to="405" dur="12s" repeatCount="indefinite"/>
+              </g>
+
+              <!-- Center dot -->
+              <circle cx="0" cy="0" r="4" fill="#ffffff">
+                <animate attributeName="r" values="4;5.5;4" dur="2s" repeatCount="indefinite"/>
               </circle>
 
-              <!-- Clean lock icon -->
-              <rect x="-14" y="-4" width="28" height="22" rx="4" fill="#4000A5" opacity="0.9"/>
-              <path d="M-8 -4 V-14 C-8 -24 8 -24 8 -14 V-4" fill="none" stroke="#4000A5" stroke-width="3.5" stroke-linecap="round"/>
-              <circle cx="0" cy="6" r="4" fill="#00C2FF"/>
-              <rect x="-1.5" y="8" width="3" height="7" rx="1" fill="#00C2FF"/>
-
-              <!-- Corner circuit nodes on ring -->
-              <circle cx="20" cy="-25" r="2.5" fill="#00C2FF" opacity="0.8">
-                <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+              <!-- Orbiting particles -->
+              <circle r="2" fill="#2DD4BF" opacity="0.9">
+                <animateMotion dur="4s" repeatCount="indefinite" path="M0,-40 A40,40 0 1,1 -0.1,-40"/>
               </circle>
-              <circle cx="-20" cy="15" r="2.5" fill="#2DD4BF" opacity="0.8">
-                <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.7s" repeatCount="indefinite"/>
-              </circle>
-              <circle cx="20" cy="15" r="2.5" fill="#A78BFA" opacity="0.8">
-                <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="1.4s" repeatCount="indefinite"/>
+              <circle r="2" fill="#A78BFA" opacity="0.9">
+                <animateMotion dur="4s" repeatCount="indefinite" begin="2s" path="M0,-40 A40,40 0 1,1 -0.1,-40"/>
               </circle>
             </g>
 
