@@ -1,5 +1,5 @@
 // ============================================================
-// Portfolio - interactivity
+// Portfolio — interactivity
 // ============================================================
 (function () {
   'use strict';
@@ -30,7 +30,7 @@
     en: [
       'Assistant Professor of Cybersecurity & AI',
       'AI Lead & Co-Founder @ Sygma',
-      'Ph.D. · Loughborough University (UK)',
+      'Ph.D. Loughborough University (UK)',
       'GAN Researcher · Anomaly Detection',
       'Peer Reviewer - Springer, Elsevier, Nature'
     ],
