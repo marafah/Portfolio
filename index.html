@@ -246,37 +246,56 @@
               </circle>
             </g>
 
-            <!-- Central generative AI icon -->
-            <g transform="translate(200 200)" filter="url(#glowStrong)">
-              <!-- Outer glow circle -->
-              <circle cx="0" cy="0" r="48" fill="#4000A5" opacity="0.35"/>
-              <circle cx="0" cy="0" r="48" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+            <!-- Central AI brain-chip icon -->
+            <g transform="translate(200 200)">
+              <!-- Frosted glass backdrop -->
+              <circle cx="0" cy="0" r="52" fill="#ffffff" opacity="0.08"/>
+              <circle cx="0" cy="0" r="52" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1.2"/>
 
-              <!-- Sparkle star (4-point) — generative AI symbol -->
-              <g>
-                <path d="M0 -32 C3 -12, 12 -3, 32 0 C12 3, 3 12, 0 32 C-3 12, -12 3, -32 0 C-12 -3, -3 -12, 0 -32Z"
-                      fill="#ffffff" opacity="0.92"/>
-                <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="3s" repeatCount="indefinite"/>
+              <!-- Outer ring with tick marks -->
+              <circle cx="0" cy="0" r="44" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="0.8" stroke-dasharray="2 8"/>
+
+              <!-- Brain outline (left hemisphere) -->
+              <g filter="url(#glow)">
+                <path d="M-2,-28 C-8,-28 -16,-25 -20,-18 C-24,-11 -24,-4 -22,2 C-25,5 -26,10 -24,16 C-22,22 -16,26 -10,28 C-6,29 -2,28 -2,28"
+                      fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" opacity="0.9"/>
+                <!-- Brain fold lines (left) -->
+                <path d="M-6,-18 C-12,-14 -14,-6 -10,-1" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+                <path d="M-8,4 C-16,8 -16,16 -10,20" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
               </g>
 
-              <!-- Inner sparkle (rotated 45°) -->
-              <g transform="rotate(45)">
-                <path d="M0 -18 C2 -7, 7 -2, 18 0 C7 2, 2 7, 0 18 C-2 7, -7 2, -18 0 C-7 -2, -2 -7, 0 -18Z"
-                      fill="#00C2FF" opacity="0.7"/>
-                <animateTransform attributeName="transform" type="rotate" from="45" to="405" dur="12s" repeatCount="indefinite"/>
+              <!-- Circuit board (right hemisphere) -->
+              <g filter="url(#glow)">
+                <path d="M2,-28 C8,-28 16,-25 20,-18 C24,-11 24,-4 22,2 C25,5 26,10 24,16 C22,22 16,26 10,28 C6,29 2,28 2,28"
+                      fill="none" stroke="#00C2FF" stroke-width="2.2" stroke-linecap="round" opacity="0.9"/>
+                <!-- Circuit traces (right) -->
+                <line x1="8" y1="-16" x2="18" y2="-16" stroke="#00C2FF" stroke-width="1.3" opacity="0.7"/>
+                <line x1="18" y1="-16" x2="18" y2="-6" stroke="#00C2FF" stroke-width="1.3" opacity="0.7"/>
+                <line x1="8" y1="4" x2="20" y2="4" stroke="#2DD4BF" stroke-width="1.3" opacity="0.7"/>
+                <line x1="10" y1="16" x2="16" y2="16" stroke="#2DD4BF" stroke-width="1.3" opacity="0.7"/>
+                <line x1="16" y1="16" x2="16" y2="10" stroke="#2DD4BF" stroke-width="1.3" opacity="0.7"/>
+                <!-- Circuit nodes -->
+                <circle cx="8" cy="-16" r="2" fill="#00C2FF"/>
+                <circle cx="18" cy="-6" r="2" fill="#00C2FF"/>
+                <circle cx="8" cy="4" r="2" fill="#2DD4BF"/>
+                <circle cx="10" cy="16" r="2" fill="#2DD4BF"/>
               </g>
 
-              <!-- Center dot -->
-              <circle cx="0" cy="0" r="4" fill="#ffffff">
-                <animate attributeName="r" values="4;5.5;4" dur="2s" repeatCount="indefinite"/>
-              </circle>
+              <!-- Center spine -->
+              <line x1="0" y1="-26" x2="0" y2="26" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="3 3"/>
 
-              <!-- Orbiting particles -->
-              <circle r="2" fill="#2DD4BF" opacity="0.9">
-                <animateMotion dur="4s" repeatCount="indefinite" path="M0,-40 A40,40 0 1,1 -0.1,-40"/>
+              <!-- Pulse animation on circuit nodes -->
+              <circle cx="18" cy="-6" r="2" fill="#00C2FF" opacity="0.8">
+                <animate attributeName="r" values="2;4;2" dur="2s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
               </circle>
-              <circle r="2" fill="#A78BFA" opacity="0.9">
-                <animateMotion dur="4s" repeatCount="indefinite" begin="2s" path="M0,-40 A40,40 0 1,1 -0.1,-40"/>
+              <circle cx="8" cy="4" r="2" fill="#2DD4BF" opacity="0.8">
+                <animate attributeName="r" values="2;4;2" dur="2s" begin="0.7s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" begin="0.7s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="10" cy="16" r="2" fill="#2DD4BF" opacity="0.8">
+                <animate attributeName="r" values="2;4;2" dur="2s" begin="1.4s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" begin="1.4s" repeatCount="indefinite"/>
               </circle>
             </g>
 
