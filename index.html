@@ -287,19 +287,22 @@
                 <path d="M7,6 C16,10 16,20 10,24" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
               </g>
 
-              <!-- Brain signal (heartbeat/EEG pulse) — white trace + red peak -->
+              <!-- Brain signal — enters left, pulse through brain, exits right -->
               <g filter="url(#glowStrong)">
-                <path d="M-42,0 L-26,0 L-20,-14 L-13,16 L-6,-20 L0,22 L6,-16 L13,12 L18,0 L42,0"
-                      fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.25"/>
-                <path d="M-42,0 L-26,0 L-20,-14 L-13,16 L-6,-20 L0,22 L6,-16 L13,12 L18,0 L42,0"
+                <!-- Static faint trace -->
+                <path d="M-200,0 L-42,0 L-26,0 L-20,-14 L-13,16 L-6,-20 L0,22 L6,-16 L13,12 L18,0 L42,0 L200,0"
+                      fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.1"/>
+                <!-- Animated red sweep (short dash traveling left→right) -->
+                <path d="M-200,0 L-42,0 L-26,0 L-20,-14 L-13,16 L-6,-20 L0,22 L6,-16 L13,12 L18,0 L42,0 L200,0"
                       fill="none" stroke="#FF3B3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-                      stroke-dasharray="130" stroke-dashoffset="130">
-                  <animate attributeName="stroke-dashoffset" values="130;0;0;130" dur="2.5s" repeatCount="indefinite" keyTimes="0;0.4;0.7;1"/>
+                      stroke-dasharray="60 400">
+                  <animate attributeName="stroke-dashoffset" values="460;0" dur="2.5s" repeatCount="indefinite"/>
                 </path>
-                <path d="M-42,0 L-26,0 L-20,-14 L-13,16 L-6,-20 L0,22 L6,-16 L13,12 L18,0 L42,0"
+                <!-- White glow following the red -->
+                <path d="M-200,0 L-42,0 L-26,0 L-20,-14 L-13,16 L-6,-20 L0,22 L6,-16 L13,12 L18,0 L42,0 L200,0"
                       fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-                      stroke-dasharray="130" stroke-dashoffset="130" opacity="0.6">
-                  <animate attributeName="stroke-dashoffset" values="130;0;0;130" dur="2.5s" repeatCount="indefinite" keyTimes="0;0.4;0.7;1"/>
+                      stroke-dasharray="60 400" opacity="0.5">
+                  <animate attributeName="stroke-dashoffset" values="460;0" dur="2.5s" repeatCount="indefinite"/>
                 </path>
               </g>
             </g>
