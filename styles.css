@@ -1,14 +1,14 @@
 /* ============================================================
-   Dr. Mohammad Arafah — Portfolio
+   Dr. Mohammad Arafah - Portfolio
    Modern, bilingual (EN/AR), light/dark theme
    ============================================================ */
 
 /* Design tokens */
 :root {
   /* Sygma brand palette */
-  --brand: #4000A5;        /* primary — Sygma purple */
-  --brand-2: #00C2FF;      /* accent — Sygma cyan */
-  --brand-3: #2DD4BF;      /* accent — Sygma teal */
+  --brand: #4000A5;        /* primary - Sygma purple */
+  --brand-2: #00C2FF;      /* accent - Sygma cyan */
+  --brand-3: #2DD4BF;      /* accent - Sygma teal */
   --brand-dark: #1A1A1A;
 
   /* Icon accents (for variety) */
@@ -894,13 +894,13 @@ a.tl-org:hover { color: var(--brand); }
 .pub-groups .pub-group:nth-child(3n+2) .pub-year { color: var(--c-cyan); }
 .pub-groups .pub-group:nth-child(3n+3) .pub-year { color: var(--c-teal); }
 
-/* RTL — flip divider side */
+/* RTL - flip divider side */
 html[dir='rtl'] .pub-group .pub-year {
   border-inline-end: none;
   border-inline-start: 1px solid var(--border);
 }
 
-/* Mobile — stack year on top */
+/* Mobile - stack year on top */
 @media (max-width: 560px) {
   .pub-group { grid-template-columns: 1fr; }
   .pub-group .pub-year {
@@ -1254,10 +1254,10 @@ html[dir='rtl'] .copyright { text-align: start; }
 .reveal.in { opacity: 1; transform: none; }
 
 /* ============================================================
-   Colorful icon rotation — give icons personality
+   Colorful icon rotation - give icons personality
    ============================================================ */
 
-/* Teaching chips — rotate through palette */
+/* Teaching chips - rotate through palette */
 .chip-grid .chip:nth-child(8n+1) i { color: var(--c-purple); }
 .chip-grid .chip:nth-child(8n+2) i { color: var(--c-cyan); }
 .chip-grid .chip:nth-child(8n+3) i { color: var(--c-teal); }
@@ -1267,7 +1267,7 @@ html[dir='rtl'] .copyright { text-align: start; }
 .chip-grid .chip:nth-child(8n+7) i { color: var(--c-indigo); }
 .chip-grid .chip:nth-child(8n+8) i { color: var(--c-rose); }
 
-/* Faculty training cards — gradient icons */
+/* Faculty training cards - gradient icons */
 .training-grid .train-card:nth-child(8n+1) i { color: var(--c-purple); }
 .training-grid .train-card:nth-child(8n+2) i { color: var(--c-cyan); }
 .training-grid .train-card:nth-child(8n+3) i { color: var(--c-teal); }
@@ -1289,7 +1289,7 @@ html[dir='rtl'] .copyright { text-align: start; }
 .skills-grid .skill-group:nth-child(3) h4 i { color: var(--c-teal); }
 .skills-grid .skill-group:nth-child(4) h4 i { color: var(--c-amber); }
 
-/* Skill chips — per-item icon colors */
+/* Skill chips - per-item icon colors */
 .skill-chips .skill-chip:nth-child(6n+1) i { color: var(--c-purple); }
 .skill-chips .skill-chip:nth-child(6n+2) i { color: var(--c-cyan); }
 .skill-chips .skill-chip:nth-child(6n+3) i { color: var(--c-teal); }
@@ -1303,7 +1303,7 @@ html[dir='rtl'] .copyright { text-align: start; }
 .info-list li:nth-child(3) i { color: var(--c-teal); }
 .info-list li:nth-child(4) i { color: var(--c-amber); }
 
-/* Hero social icons — colorful at rest, white on hover */
+/* Hero social icons - colorful at rest, white on hover */
 .hero-socials a:nth-child(1):not(:hover) { color: var(--c-purple); }
 .hero-socials a:nth-child(2):not(:hover) { color: var(--c-cyan); }
 .hero-socials a:nth-child(3):not(:hover) { color: var(--c-teal); }
@@ -1311,7 +1311,7 @@ html[dir='rtl'] .copyright { text-align: start; }
 .hero-socials a:nth-child(5):not(:hover) { color: var(--c-pink); }
 .hero-socials a:hover { color: #fff !important; }
 
-/* Footer social icons — colorful tiles */
+/* Footer social icons - colorful tiles */
 .footer-socials a:nth-child(1):not(:hover) {
   color: #fff;
   background: linear-gradient(135deg, var(--c-purple), var(--c-cyan));
@@ -1340,7 +1340,7 @@ html[dir='rtl'] .copyright { text-align: start; }
 .float-chip:nth-child(3) i { color: var(--c-teal); }
 .float-chip:nth-child(4) i { color: var(--c-pink); }
 
-/* Project icon tiles — gradient backgrounds per card */
+/* Project icon tiles - gradient backgrounds per card */
 .projects-grid .project-card:nth-child(6n+1) .project-icon {
   background: linear-gradient(135deg, rgba(64,0,165,0.15), rgba(0,194,255,0.12));
   color: var(--c-purple);
@@ -1366,7 +1366,7 @@ html[dir='rtl'] .copyright { text-align: start; }
   color: var(--c-green);
 }
 
-/* Certification badges — rotating gradient */
+/* Certification badges - rotating gradient */
 .cert-grid .cert-card:nth-child(6n+1) .cert-badge { background: linear-gradient(135deg, var(--c-purple), var(--c-cyan)); }
 .cert-grid .cert-card:nth-child(6n+2) .cert-badge { background: linear-gradient(135deg, var(--c-cyan), var(--c-teal)); }
 .cert-grid .cert-card:nth-child(6n+3) .cert-badge { background: linear-gradient(135deg, var(--c-teal), var(--c-green)); }
@@ -1382,7 +1382,7 @@ html[dir='rtl'] .copyright { text-align: start; }
 .contact-grid .contact-card:nth-child(6n+5) > i { background: linear-gradient(135deg, var(--c-pink), var(--c-indigo)); }
 .contact-grid .contact-card:nth-child(6n+6) > i { background: linear-gradient(135deg, var(--c-indigo), var(--c-purple)); }
 
-/* Timeline dots — colorful per entry */
+/* Timeline dots - colorful per entry */
 .timeline .tl-item:nth-child(7n+1) .tl-dot { border-color: var(--c-purple); }
 .timeline .tl-item:nth-child(7n+2) .tl-dot { border-color: var(--c-cyan); }
 .timeline .tl-item:nth-child(7n+3) .tl-dot { border-color: var(--c-teal); }

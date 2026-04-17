@@ -1,5 +1,5 @@
 // ============================================================
-// Portfolio — interactivity
+// Portfolio - interactivity
 // ============================================================
 (function () {
   'use strict';
@@ -32,14 +32,14 @@
       'AI Lead & Co-Founder @ Sygma',
       'Ph.D. · Loughborough University (UK)',
       'GAN Researcher · Anomaly Detection',
-      'Peer Reviewer — Springer, Elsevier, Nature'
+      'Peer Reviewer - Springer, Elsevier, Nature'
     ],
     ar: [
       'أستاذ مساعد في الأمن السيبراني والذكاء الاصطناعي',
       'رئيس قسم الذكاء الاصطناعي وشريك مؤسّس في Sygma',
-      'دكتوراه من جامعة لوفبرا — المملكة المتحدة',
+      'دكتوراه من جامعة لوفبرا - المملكة المتحدة',
       'باحث في شبكات GAN وكشف الشذوذ',
-      'مراجع علمي — Springer و Elsevier و Nature'
+      'مراجع علمي - Springer و Elsevier و Nature'
     ]
   };
 
