@@ -281,8 +281,16 @@
                 <circle cx="10" cy="16" r="2" fill="#2DD4BF"/>
               </g>
 
-              <!-- Center spine -->
-              <line x1="0" y1="-26" x2="0" y2="26" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="3 3"/>
+              <!-- Brain signal (heartbeat/EEG pulse) -->
+              <g>
+                <path d="M-38,0 L-22,0 L-18,-12 L-12,14 L-6,-18 L0,20 L6,-14 L12,10 L16,0 L38,0"
+                      fill="none" stroke="#00C2FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"
+                      stroke-dasharray="120" stroke-dashoffset="120">
+                  <animate attributeName="stroke-dashoffset" values="120;0;0;120" dur="3s" repeatCount="indefinite" keyTimes="0;0.4;0.7;1"/>
+                </path>
+                <path d="M-38,0 L-22,0 L-18,-12 L-12,14 L-6,-18 L0,20 L6,-14 L12,10 L16,0 L38,0"
+                      fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.15"/>
+              </g>
 
               <!-- Pulse animation on circuit nodes -->
               <circle cx="18" cy="-6" r="2" fill="#00C2FF" opacity="0.8">
