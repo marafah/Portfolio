@@ -230,6 +230,21 @@
           </svg>
         </div>
         <div class="float-chip chip-1"><i class="fa-solid fa-shield-halved"></i><span data-en="Cybersecurity" data-ar="الأمن السيبراني">Cybersecurity</span></div>
+        <svg class="chip-link" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="linkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="var(--c-purple)" />
+              <stop offset="100%" stop-color="var(--c-cyan)" />
+            </linearGradient>
+          </defs>
+          <path d="M10,90 Q100,-20 190,90" stroke="url(#linkGrad)" stroke-width="2" stroke-dasharray="6 4" class="chip-link-path" />
+          <circle r="3" fill="var(--c-cyan)" class="chip-link-dot">
+            <animateMotion dur="3s" repeatCount="indefinite" path="M10,90 Q100,-20 190,90" />
+          </circle>
+          <circle r="3" fill="var(--c-purple)" class="chip-link-dot">
+            <animateMotion dur="3s" repeatCount="indefinite" path="M190,90 Q100,-20 10,90" />
+          </circle>
+        </svg>
         <div class="float-chip chip-2"><i class="fa-solid fa-brain"></i><span data-en="AI / ML" data-ar="الذكاء الاصطناعي">AI / ML</span></div>
         <div class="float-chip chip-3"><i class="fa-solid fa-graduation-cap"></i><span data-en="Ph.D." data-ar="دكتوراه">Ph.D.</span></div>
         <div class="float-chip chip-4"><i class="fa-solid fa-flask"></i><span data-en="Research" data-ar="الأبحاث">Research</span></div>

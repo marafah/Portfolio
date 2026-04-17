@@ -549,6 +549,24 @@ h1, h2, h3, h4, h5 { font-weight: 700; line-height: 1.25; color: var(--text); }
 .chip-2 { top: 20%; right: -14%; animation-delay: 1.5s; }
 .chip-3 { bottom: 18%; left: -18%; animation-delay: 3s; }
 .chip-4 { bottom: 2%; right: -10%; animation-delay: 4.5s; }
+.chip-link {
+  position: absolute;
+  top: -2%;
+  left: 8%;
+  width: 84%;
+  height: 30%;
+  z-index: 0;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.chip-link-path {
+  animation: linkPulse 3s ease-in-out infinite;
+}
+@keyframes linkPulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
 @keyframes floaty {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-12px); }
@@ -1438,6 +1456,7 @@ html[dir='rtl'] .typewriter { text-align: right; }
   .hero-grid { grid-template-columns: 1fr; gap: 40px; text-align: center; }
   .hero-text .hero-tag, .hero-cta, .hero-socials { justify-content: center; }
   .avatar-wrap { width: min(300px, 70vw); }
+  .chip-link { display: none; }
   .chip-1 { left: -8%; }
   .chip-2 { right: -8%; }
   .chip-3 { left: -10%; }
