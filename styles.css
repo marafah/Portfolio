@@ -1345,8 +1345,8 @@ html[dir='rtl'] .copyright { text-align: start; }
 /* Floating chips around avatar */
 .float-chip:nth-child(1) i { color: var(--c-purple); }
 .float-chip:nth-child(2) i { color: var(--c-cyan); }
-.float-chip:nth-child(3) i { color: var(--c-teal); }
-.float-chip:nth-child(4) i { color: var(--c-pink); }
+.float-chip:nth-child(3) i { color: var(--c-amber); }
+.float-chip:nth-child(4) i { color: var(--c-indigo); }
 
 /* Project icon tiles — gradient backgrounds per card */
 .projects-grid .project-card:nth-child(6n+1) .project-icon {
