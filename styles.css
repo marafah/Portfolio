@@ -1018,6 +1018,8 @@ html[dir='rtl'] .pub-group .pub-year {
   font-weight: 500;
 }
 .skill-chip i { color: var(--brand); }
+a.skill-chip-link { text-decoration: none; color: inherit; cursor: pointer; }
+a.skill-chip-link:hover { border-color: var(--brand); box-shadow: 0 0 8px rgba(0,194,255,0.3); }
 
 /* Certifications */
 .cert-grid {
